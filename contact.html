@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-student portfolio website</title>
+</head>
+<body>
+    <!-- Header page-->
+     <h2>Countact Us</h2>
+     <p>Get in touch with our team</p>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="member.html">Member Profile</a>
+    <a href="about.html">About us</a>
+    </nav>
+    <hr>
+    <!--Main Content-->
+    <main>
+        <!-- ===== Contact information Section ===-->
+         <h2>Contact information</h2>
+         <p><strong>Email: </strong><a href="gbstudentportfolio@gmail.com">gbstudentportfolio@gmail.com</a></p>
+         <p><strong>Phone no: </strong> +255 (781549505)</p>
+         <p><strong>Address: </strong>Sam Nujoma Road Mlimani,University of Dar es salaam</p>
+
+         <!-- Form section-->
+          <h2>Send us a message</h2>
+          <form action="#">
+            <!--Name input-->
+            <label for="name">Full name </label> 
+            <input type="text" id="name" name="name" placeholder="Full name required" required>
+            <br><br>
+
+            <!--Email input-->
+            <label for="email">Email </label> 
+            <input type="email" name="email" id="email" placeholder="you@exaple.con" required>
+            <br><br>
+            <!--Message input-->
+            <label for="textarea"> Comment down</label><br>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            <br><br>
+
+            <!--Radio button input-->
+            <label>Education Status</label> <br>
+            <input type="radio" name="education" id="earlyeducation" value="earlyeducation" checked>
+            <label for="earlyeducation">Early Education</label>
+            <br>
+
+            <input type="radio" name="education" id="primary" value="primary">
+            <label for="primary">Primary Education</label>
+            <br>
+
+            <input type="radio" name="education" id="secondary" value="secondary">
+            <label for="secondary">Secondary Education</label>
+            <br>
+
+            <input type="radio" name="education" id="university" value="university">
+            <label for="university">University Education</label><br>
+
+            <!--Check box-- Interest-->
+            <label for="interest">Interest (select all that apply to you)</label><br>
+            <input type="checkbox" name="interest" id="webdev" value="webdev">
+            <label for="webdev"> Web Development </label><br>
+
+            <input type="checkbox" name="interest" id="design" value="design">
+            <label for="design"> Designing </label><br>
+
+            <input type="checkbox" name="interest" id="ai" value="ai">
+            <label for="ai"> Artificial Intellegence </label><br>
+
+            <input type="checkbox" name="interest" id="game" value="game">
+            <label for="game"> Gaming </label><br>
+
+            <!--Submit and Reset-->
+            <button type="submit"> Submit </button>
+            <button type="reset"> Reset </button>
+          </form>
+    </main>
+
+    <hr>
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2026 Portfolio Group: All Right Reservered </p>
+    </footer>
+</body>
+</html>
